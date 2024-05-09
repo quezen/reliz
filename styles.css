@@ -1,0 +1,81 @@
+ body {
+    font-family: sans-serif;
+    background-color: rgb(231, 228, 21);
+    /* text-align: center; */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(214, 147, 22);
+    border-radius: 25px;
+    padding: 20px 0px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 10px 0px;
+}
+.section_main {
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    color: rgb(90, 59, 1);
+}
+main a{
+    text-decoration: none;
+    color: green;
+    background-color: yellowgreen;
+    padding: 5px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+.div_left {
+    text-align: center;
+}
+.div_right {
+    display: flex;
+    align-items: center;
+}
+.div_end {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px ;
+}
+nav  a:hover {
+    color: rgb(255, 38, 0);
+    font-size: 25px;
+    text-decoration: dotted;
+    border-bottom: 5px dotted rgb(255, 38, 0);
+}
+
+.dzvinok:hover {
+    background-color: brown;
+    color: beige;
+    border: 1px solid green;
+    transition: 2s;
+}
+
+.guides:hover {
+    background-color: brown;
+    color: beige;
+    border: 1px solid green;
+    transition: 2s;
+}
+.buy:hover {
+    color: rgb(255, 38, 0);
+    border: none;
+    text-decoration: dotted;
+    border-bottom: 5px dotted rgb(255, 38, 0);
+
+}
+h1:hover {
+    background: linear-gradient(to right, lightgreen, beige );
+}
